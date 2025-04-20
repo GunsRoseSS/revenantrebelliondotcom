@@ -1,0 +1,13 @@
+.highlight {
+    font-weight: bold;
+    color: blue;
+}
+
+.nav-item {
+    height: 75px;
+    align-content: center;
+}
+
+.nav-item img {
+    max-height: 100%;
+}
