@@ -3,11 +3,31 @@
     color: blue;
 }
 
-.nav-item {
+nav button {
+    right: 0;
+    margin-right: 10px;
+}
+
+.navbar {
     height: 75px;
+}
+
+.nav-item {
     align-content: center;
 }
 
-.nav-item img {
+.navbar img {
+    margin-left: 5px;
     max-height: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Lucida Console';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
 }
