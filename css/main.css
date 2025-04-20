@@ -1,6 +1,6 @@
-.highlight {
-    font-weight: bold;
-    color: blue;
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 nav button {
@@ -21,13 +21,32 @@ nav button {
     max-height: 100%;
 }
 
+header {
+    background-color: #4a4a4a;
+    padding-bottom: 1rem;
+}
+
 header img {
     width: 100%;
+}
+
+main {
+    background-color: #4a4a4a;
+    border: 3px 0 3px 0 solid #ff781f;
+    padding-bottom: 3rem;
 }
 
 h1, h2, h3 {
     font-family: 'Lucida Console';
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
+    font-weight: bolder;
+    text-shadow: 3px 3px #ff781f;
+    margin-bottom: 1rem;
+    color: white !important;
+}
+
+section {
+    margin-bottom: 3rem;
 }
