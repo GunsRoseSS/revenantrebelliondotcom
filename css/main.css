@@ -16,14 +16,26 @@ nav button {
     align-content: center;
 }
 
+@media (max-width: 768px) {
+    .nav-item {
+        padding-left: 7px;
+        background-color: white;
+        border-top: 1px solid #B8B8B8;
+    }
+
+    .nav-bar:last-child {
+        border-bottom: 1px solid #B8B8B8;
+    }
+}
+
 .navbar img {
     margin-left: 5px;
     max-height: 100%;
+    padding-right: 10px;
 }
 
 header {
     background-color: #4a4a4a;
-    padding-bottom: 1rem;
 }
 
 header img {
@@ -32,8 +44,18 @@ header img {
 
 main {
     background-color: #4a4a4a;
-    border: 3px 0 3px 0 solid #ff781f;
+    border-right: 10px solid #FF5B5D;
+    border-left: 10px solid #FF5B5D;
+    padding-top: 1rem;
     padding-bottom: 3rem;
+}
+
+main::before {
+    background-color: none;
+    border-right: 10px solid white;
+    z-index: -1;
+    left: 10px;
+    right: 10px;
 }
 
 h1, h2, h3 {
@@ -42,11 +64,16 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     font-weight: bolder;
-    text-shadow: 3px 3px #ff781f;
+    text-shadow: 3px 3px #FF5B5D;
     margin-bottom: 1rem;
     color: white !important;
 }
 
 section {
     margin-bottom: 3rem;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
 }
